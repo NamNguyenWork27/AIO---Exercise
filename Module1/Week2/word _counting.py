@@ -1,7 +1,6 @@
 if __name__ == "__main__":
     with open('/workspaces/AIO---Exercise/Module1/Week2/P1_data.txt', 'r') as f:
         document = f.read()
-
     words = document.split()
 
     counter = {}
@@ -12,5 +11,7 @@ if __name__ == "__main__":
             counter[word] = 1
 
     print(counter)
+
+    
 
 
